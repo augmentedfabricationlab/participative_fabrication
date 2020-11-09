@@ -39,7 +39,21 @@ In this project we will explore how the use of mobile AR technologies allows use
 
 ## Installation and Dependencies - Geometry and Fabrication
 
+### Installation participative_fabrication:
 
+* Clone the [participative_fabrication](https://github.com/augmentedfabricationlab/participative_fabrication) repository into your project workspace.
+
+### Installation assembly_information_model:
+
+* Clone the [assembly_information_model](https://github.com/augmentedfabricationlab/assembly_information_model) repository into your project workspace.
+
+* Change to the directory of the repository and use pip install to copy the repository to your Anaconda environment site packages: 
+
+`(afab20) pip install -e your_filepath_to_assembly_information_model`    
+
+* And make the projects accessible from Rhino 
+
+`(afab20) invoke add-to-rhino`
 
 
 Credits
