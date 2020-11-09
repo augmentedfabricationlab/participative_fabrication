@@ -66,8 +66,10 @@ NOTE: This installs to Rhino 6.0, use `-v 5.0` if needed.
 
 `(afab20) invoke add-to-rhino`
 
+## Example files
 
-Credits
--------------
+Various example files are located in the rhino folder.
+
+## Credits
 
 [@augmentedfabricationlab](https://github.com/augmentedfabricationlab)
