@@ -24,13 +24,13 @@ This project explores how the use of mobile AR technologies allows users to coll
 (via your Anaconda Terminal)
     
     (base)  conda config --add channels conda-forge
-    (base)  conda create -n your_env_name python=3.8 compas_fab=0.13 --yes
-    (base)  conda activate your_env_name
-    (your_env_name) python -m compas_rhino.install -v 6.0 -p compas compas_ghpython compas_rhino
+    (base)  conda create -n afab20 python=3.8 compas_fab=0.13 --yes
+    (base)  conda activate afab20
+    (afab20) python -m compas_rhino.install -v 6.0 -p compas compas_ghpython compas_rhino
     
 ### Verify Installation
 
-    (your_env_name) pip show compas_fab
+    (afab20) pip show compas_fab
     Name: compas-fab
     Version: 0.13.1
     Summary: Robotic fabrication package for the COMPAS Framework
