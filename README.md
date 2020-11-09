@@ -33,7 +33,7 @@ In this project we will explore how the use of mobile AR technologies allows use
     (base)  conda create -n afab20 python=3.8 compas_fab=0.13 python.app --yes
     (base)  conda activate afab20
     
-NOTE: This installs to Rhino 6.0, use -v 5.0 if needed.
+
 
 ### Verify Installation
 
@@ -46,6 +46,8 @@ NOTE: This installs to Rhino 6.0, use -v 5.0 if needed.
 ### Install on Rhino
 
     (afab20) python -m compas_rhino.install
+
+NOTE: This installs to Rhino 6.0, use -v 5.0 if needed.
 
 ## Installation and Dependencies - Geometry and Fabrication
 
