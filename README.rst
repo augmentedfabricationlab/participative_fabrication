@@ -1,5 +1,5 @@
 ============================================================
-participative_fabrication: Participative Fabrication
+Participative Fabrication
 ============================================================
 
 .. start-badges
