@@ -23,15 +23,15 @@ In this project we will explore how the use of mobile AR technologies allows use
 ### Compas Installation 
 (via your Anaconda Terminal)
     
-    (base)  conda config --add channels conda-forge
+    (base) conda config --add channels conda-forge
 
 #### Windows
-    (base)  conda create -n afab20 python=3.8 compas_fab=0.13 --yes
-    (base)  conda activate afab20
+    (base) conda create -n afab20 python=3.8 compas_fab=0.13 --yes
+    (base) conda activate afab20
 
 #### Mac
-    (base)  conda create -n afab20 python=3.8 compas_fab=0.13 python.app --yes
-    (base)  conda activate afab20
+    (base) conda create -n afab20 python=3.8 compas_fab=0.13 python.app --yes
+    (base) conda activate afab20
     
 
 ### Verify Installation
