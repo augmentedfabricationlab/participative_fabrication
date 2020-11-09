@@ -11,7 +11,7 @@ In this project we will explore how the use of mobile AR technologies allows use
 
 * Minimum OS: **Windows 10 Pro** or **Mac OS Sierra 10.12**
 * [Rhinoceros 3D 6.0](https://www.rhino3d.com/)
-* [Anaconda Python Distribution](https://www.anaconda.com/download/): 3.x
+* [Anaconda 3](https://www.anaconda.com/products/individual)
 * Git: [official command-line client](https://git-scm.com/) and visual GUI (e.g. [Github Desktop](https://desktop.github.com/))
 * [VS Code](https://code.visualstudio.com/) with the following `Extensions`:
   * `Python` (official extension)
