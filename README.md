@@ -37,7 +37,7 @@ In this project we will explore how the use of mobile AR technologies allows use
 ### Verify Installation
 
     (afab20) pip show compas_fab
-##
+###
     Name: compas-fab
     Version: 0.13.1
     Summary: Robotic fabrication package for the COMPAS Framework
