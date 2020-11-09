@@ -24,10 +24,17 @@ In this project we will explore how the use of mobile AR technologies allows use
 (via your Anaconda Terminal)
     
     (base)  conda config --add channels conda-forge
+
+#### Windows
     (base)  conda create -n afab20 python=3.8 compas_fab=0.13 --yes
     (base)  conda activate afab20
-    (afab20) python -m compas_rhino.install -v 6.0 -p compas compas_ghpython compas_rhino
+
+#### Mac
+    (base)  conda create -n afab20 python=3.8 compas_fab=0.13 python.app --yes
+    (base)  conda activate afab20
     
+NOTE: This installs to Rhino 6.0, use -v 5.0 if needed.
+
 ### Verify Installation
 
     (afab20) pip show compas_fab
@@ -36,6 +43,9 @@ In this project we will explore how the use of mobile AR technologies allows use
     Summary: Robotic fabrication package for the COMPAS Framework
     ...
 
+### Install on Rhino
+
+    (afab20) python -m compas_rhino.install
 
 ## Installation and Dependencies - Geometry and Fabrication
 
