@@ -16,8 +16,10 @@ In this project we will explore how the use of mobile AR technologies allows use
 * Git: [official command-line client](https://git-scm.com/) and visual GUI (e.g. [Github Desktop](https://desktop.github.com/))
 * [Docker Desktop](https://www.docker.com/products/docker-desktop)
 * [VS Code](https://code.visualstudio.com/) with the following `Extensions`:
-  * `Python`  *Official extension to add support for Python programming, including debugging, auto-complete, formatting, etc.)*
-  * `Docker`  *Add support for Dockerfile and docker-compose.yml files to VS Code.*
+  * `Python`  
+  *Official extension to add support for Python programming, including debugging, auto-complete, formatting, etc.)*
+  * `Docker`  
+  *Add support for Dockerfile and docker-compose.yml files to VS Code.*
 
 
 
