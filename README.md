@@ -4,7 +4,8 @@
 
 In this project we will explore how the use of mobile AR technologies allows users to collaboratively build geometrically complex structures solely from instructions via a mobile interface. We will further look into the design of human-machine interfaces and develop interactive and real-time visual building instructions for users to build a larger structure collaboratively. 
 
-![Participative_Fabrication](/docs/images/participative_building.jpg)
+
+<img src="/docs/images/participative_building.jpg" width="300">
 
 
 ## Requirements
