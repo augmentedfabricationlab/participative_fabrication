@@ -61,12 +61,8 @@ In this project we will explore how the use of mobile AR technologies allows use
 * Start the __Docker ROS incon_communication __, by going to VS code and start the docker containers by:
   * __Only once__: If you do this the first time, you have to build the local [Dockerfile](docker\docker-images\Dockerfile) via 
     * right-click `Build` and tag your Docker Image as: augmentedfabricationlab/incon_communication:latest or 
-    * in the Terminal (cd to folder) via<br/> `docker build --rm -f Dockerfile -t augmentedfabricationlab/incon_communication .` 
-    * (Building without cache:<br/> `docker build --no-cache --rm -f Dockerfile -t augmentedfabricationlab/incon_communication .`)
   * __Always__: Run the docker image [`incon_communication/docker-compose.yml`](docker/ros-systems/incon_communication/docker-compose.yml) via 
-    * right-click on the file `Compose-up` or 
-    * type `docker-compose up -d` in the Terminal (cd to folder) to start it.
-    * when ending, don't forget to stop the image via `docker-compose down -d`
+    * right-click on the file `Compose-up`
 * Open the file [rhino/ex3_assembly_load_to_app.ghx](rhino/ex3_assembly_load_to_app.ghx) and __connect to the ROS client via the rosbridge__ You can now communicate with the incon app via Rhino.
 
 ## Example files
