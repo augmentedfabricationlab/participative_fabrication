@@ -34,17 +34,17 @@ In this project we will explore how the use of mobile AR technologies allows use
     (base) conda create -n afab20 python=3.8 compas_fab=0.13 python.app --yes
     (base) conda activate afab20
 
-### Install on Rhino
+#### Install on Rhino
 
     (afab20) python -m compas_rhino.install
 
-## Installation and Dependencies - Geometry and Fabrication
+### Installation of Dependencies
 
-### Installation participative_fabrication:
+#### Installation participative_fabrication:
 
 * Clone the [participative_fabrication](https://github.com/augmentedfabricationlab/participative_fabrication) repository into your project workspace.
 
-### Installation assembly_information_model:
+#### Installation assembly_information_model:
 
 * Clone the [assembly_information_model](https://github.com/augmentedfabricationlab/assembly_information_model) repository into your project workspace.
 
@@ -56,7 +56,7 @@ In this project we will explore how the use of mobile AR technologies allows use
 
 `(afab20) invoke add-to-rhino`
 
-### Setting up Docker for the communication between the incon app and Rhino:
+### Docker Set-up:
 
 * Start the __Docker ROS incon_communication__, by going to __VS code__ and start the docker containers by:
   * __Only once__: If you do this the first time, you have to build the local [Dockerfile](docker\docker-images\Dockerfile) via 
