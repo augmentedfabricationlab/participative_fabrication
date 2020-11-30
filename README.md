@@ -14,8 +14,10 @@ In this project we will explore how the use of mobile AR technologies allows use
 * [Rhinoceros 3D 6.0](https://www.rhino3d.com/)
 * [Anaconda 3](https://www.anaconda.com/products/individual)
 * Git: [official command-line client](https://git-scm.com/) and visual GUI (e.g. [Github Desktop](https://desktop.github.com/))
+* [Docker Desktop](https://www.docker.com/products/docker-desktop)
 * [VS Code](https://code.visualstudio.com/) with the following `Extensions`:
   * `Python` (official extension)
+  * `Docker` (official extension)
 
 
 
