@@ -39,28 +39,25 @@ In this project we will explore how the use of mobile AR technologies allows use
     (base) conda activate afab20
 
 #### Install on Rhino
-
     (afab20) python -m compas_rhino.install
 
+
 ### Installation of Dependencies
+
+#### Install Assembly Information Model library
+
+    (afab20) conda install git
+    (afab20) python -m pip install git+https://github.com/augmentedfabricationlab/assembly_information_model@master#egg=assembly_information_model
+    (afab20) python -m compas_rhino.install -p assembly_information_model
 
 #### Installation participative_fabrication:
 
 * Clone the [participative_fabrication](https://github.com/augmentedfabricationlab/participative_fabrication) repository into your project workspace.
 
-#### Installation assembly_information_model:
-
-* Clone the [assembly_information_model](https://github.com/augmentedfabricationlab/assembly_information_model) repository into your project workspace.
-
-* Change to the directory of the repository and use pip install to copy the repository to your Anaconda environment site packages: 
-
-`(afab20) pip install -e your_filepath_to_assembly_information_model`    
-
-* And make the projects accessible from Rhino 
-
-`(afab20) invoke add-to-rhino`
 
 ### Docker Set-up:
+
+* [Docker Desktop](https://www.docker.com/products/docker-desktop) Docker Toolbox would also work but it's a bit more annoying. After installation on Windows, it is required to enable "Virtualization" on the BIOS of the computer.
 
 * Start the __Docker ROS incon_communication__, by going to __VS code__ and start the docker containers by:
   * __Only once__: If you do this the first time, you have to build the local [Dockerfile](docker\docker-images\Dockerfile) via 
